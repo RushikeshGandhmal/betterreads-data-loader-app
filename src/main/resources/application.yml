@@ -1,15 +1,15 @@
 spring.application.name: betterreads-data-loader
 
 datadump.location:
-  author: C:\Users\Rushi\Downloads\test-authors.txt
-  works: C:\Users\Rushi\Downloads\test-works.txt
+  author: D:\Projects\Spring Boot\betterreads\betterreads-data-loader\test-authors.txt
+  works: D:\Projects\Spring Boot\betterreads\betterreads-data-loader\test-works.txt
 
 spring:
   data:
     cassandra:
       keyspace-name: main
-      username: YPiAoLkDtzRtDjtvPSuAbgit
-      password: TyLeUf0e4gKURQC_O--S_,vOsTaDiIWGXpxGDRUvayZqG4WoxaB,uF+KvNe-2E0exiJ9ZNmPIDA_3St9hxupUc7pwYlesTc8tsF8ZF9Yr6I4tnGm2hWnrb4BtMLLwZ-.
+      username: DDdfyuLedYkJnvePtWqgEAzh
+      password: RXwmFXO6yIelZ55KJIGkga1bEnF1J4r4+6-NzO-KtAbtHEhSHRYQAZ03DxQfqc8O0HPIpN7puFUG+M79BgvFjK7q2u_nDN1yiSs,f.6BdZ1pGZ0FdDGS8AdhvEa14K7k
       schema-action: create-if-not-exists
       request:
         timeout: 10s
@@ -21,7 +21,7 @@ datastax.astra:
   secure-connect-bundle: secure-connect.zip
 
 astra.db:
-  id: c5f239ac-86d6-4434-9076-bc7a432d382f
+  id: dc74843f-a0c9-4fdb-ba38-15a3d2aa4ead-1
   region: us-east1
   keyspace: main
-  application.token: AstraCS:YPiAoLkDtzRtDjtvPSuAbgit:3bf83a7740d1ea95b42cede0b5f4fcd0f7c711ec714c1435dbfdbe82a86996ee
+  application.token: AstraCS:DDdfyuLedYkJnvePtWqgEAzh:b5747ce50bfb2271de8e8139291b5b83b293446ee38a0508e68ebe0b29af86d2

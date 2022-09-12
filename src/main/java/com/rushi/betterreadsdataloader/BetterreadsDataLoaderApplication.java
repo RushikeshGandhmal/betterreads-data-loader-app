@@ -150,7 +150,7 @@ public class BetterreadsDataLoaderApplication {
 	@PostConstruct
 	public void start() {
 
-		// initAuthors();
+		initAuthors();
 		initWorks();
 	}
 
